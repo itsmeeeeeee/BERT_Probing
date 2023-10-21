@@ -24,7 +24,7 @@ In diesem Schritt werden vier zusätzliche Spalten hinzugefügt: "hypernyms", "l
 ## Emmbedding Extraction 
 # Dritte Schritt (Ausführen "end_embedding.ipynb")
 
-Das Ausführen dieser Datei extrahiert in erster Linie den BERT Embedding-Vektor. Das Skript "end_embedding.ipynb" verwendet die im zweiten Schritt erstellte Datei "final_endlabels_with_sentences.csv" als Eingabe und gibt die Datei "final_endlabels_embedding.csv" als Ausgabe aus.
+Das Ausführen dieser Datei extrahiert in erster Linie den BERT Embedding-Vektor. Das Skript "end_embedding.ipynb" verwendet die im zweiten Schritt erstellte Datei "final_endlabels_with_sentences.csv" als Eingabe und gibt die Datei "final_endlabels_embedding_word_count.csv" als Ausgabe aus.
 
 ## Probing Architektur (Ausführe "probing_aufgabe.ipynb")
 
